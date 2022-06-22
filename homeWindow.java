@@ -12,7 +12,7 @@ public class homeWindow {
 	private static final String db_driver = "com.mysql.cj.jdbc.Driver";
 	private static final String db_url = "jdbc:mysql://localhost:3306/ems";
 	private static final String db_username = "root";
-	private static final String db_password = "@Jan142009!@";
+	private static final String db_password = "Password";
 	
 	JFrame homeFrame = new JFrame();
 	JLabel title = new JLabel("Employee Management System V1");
@@ -30,8 +30,6 @@ public class homeWindow {
 		
 		if(loggedIn ==true) {
 			
-			
-
 			try {
 				Class.forName(db_driver);
 				conn = DriverManager.getConnection(db_url, db_username,db_password);
