@@ -8,7 +8,7 @@ public class query {
 		private static final String db_driver = "com.mysql.cj.jdbc.Driver";
 		private static final String db_url = "jdbc:mysql://localhost:3306/ems";
 		private static final String db_username = "root";
-		private static final String db_password = "@Jan142009!@";
+		private static final String db_password = "Password";
 			
 	
 	query(String newFName, String newLName, String newAddy, String newDep){
